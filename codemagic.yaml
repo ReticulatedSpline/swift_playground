@@ -7,6 +7,9 @@ workflows:
     #   app_store_connect: codemagic
 
     environment:
+      # import variables
+      groups:
+        - main
     #   ios_signing:
     #     distribution_type: app_store
     #     bundle_identifier: io.codemagic.sample.iosnative
@@ -28,6 +31,14 @@ workflows:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO
+    publishing:
+      email:
+        recipients:
+          - $email
+        notify:
+          success: true
+          failure: true
 
     artifacts:
-      - build/ios/ipa/*.ipa
+      - tassology/build/ios/ipa/*.ipa
+      - tassology/build/Debug-iphoneos/tassology.app
