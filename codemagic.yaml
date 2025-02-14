@@ -28,10 +28,6 @@ workflows:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO
-      # Export IPA
-      - name: Generate ipa
-        script: |
-          cd ./tassology && xcodebuild
 
     artifacts:
       - build/ios/ipa/*.ipa
