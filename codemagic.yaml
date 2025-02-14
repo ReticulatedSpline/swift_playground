@@ -28,11 +28,10 @@ workflows:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO
-      # Export IPA without signing
+      # Export IPA
       - name: Generate ipa
         script: |
-          xcodebuild -exportArchive \
-            -exportPath $HOME/ios/build
+          xcodebuild
 
     artifacts:
       - build/ios/ipa/*.ipa
