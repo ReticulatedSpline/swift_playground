@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B535DB542D5EBD3300705493 /* tassologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535DB532D5EBD3300705493 /* tassologyApp.swift */; };
+		B535DB562D5EBD3300705493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535DB552D5EBD3300705493 /* ContentView.swift */; };
+		B535DB582D5EBD3500705493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B535DB572D5EBD3500705493 /* Assets.xcassets */; };
+		B535DB5B2D5EBD3500705493 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B535DB5A2D5EBD3500705493 /* Preview Assets.xcassets */; };
+		B535DB652D5EBD3600705493 /* tassologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535DB642D5EBD3600705493 /* tassologyTests.swift */; };
+		B535DB6F2D5EBD3600705493 /* tassologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535DB6E2D5EBD3600705493 /* tassologyUITests.swift */; };
+		B535DB712D5EBD3600705493 /* tassologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535DB702D5EBD3600705493 /* tassologyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B535DB612D5EBD3600705493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535DB482D5EBD3300705493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535DB4F2D5EBD3300705493;
+			remoteInfo = tassology;
+		};
+		B535DB6B2D5EBD3600705493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B535DB482D5EBD3300705493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B535DB4F2D5EBD3300705493;
+			remoteInfo = tassology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B535DB502D5EBD3300705493 /* tassology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tassology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535DB532D5EBD3300705493 /* tassologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tassologyApp.swift; sourceTree = "<group>"; };
+		B535DB552D5EBD3300705493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B535DB572D5EBD3500705493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B535DB5A2D5EBD3500705493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B535DB602D5EBD3600705493 /* tassologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tassologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535DB642D5EBD3600705493 /* tassologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tassologyTests.swift; sourceTree = "<group>"; };
+		B535DB6A2D5EBD3600705493 /* tassologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tassologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535DB6E2D5EBD3600705493 /* tassologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tassologyUITests.swift; sourceTree = "<group>"; };
+		B535DB702D5EBD3600705493 /* tassologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tassologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B535DB4D2D5EBD3300705493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB5D2D5EBD3600705493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB672D5EBD3600705493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B535DB472D5EBD3300705493 = {
+			isa = PBXGroup;
+			children = (
+				B535DB522D5EBD3300705493 /* tassology */,
+				B535DB632D5EBD3600705493 /* tassologyTests */,
+				B535DB6D2D5EBD3600705493 /* tassologyUITests */,
+				B535DB512D5EBD3300705493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B535DB512D5EBD3300705493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B535DB502D5EBD3300705493 /* tassology.app */,
+				B535DB602D5EBD3600705493 /* tassologyTests.xctest */,
+				B535DB6A2D5EBD3600705493 /* tassologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B535DB522D5EBD3300705493 /* tassology */ = {
+			isa = PBXGroup;
+			children = (
+				B535DB532D5EBD3300705493 /* tassologyApp.swift */,
+				B535DB552D5EBD3300705493 /* ContentView.swift */,
+				B535DB572D5EBD3500705493 /* Assets.xcassets */,
+				B535DB592D5EBD3500705493 /* Preview Content */,
+			);
+			path = tassology;
+			sourceTree = "<group>";
+		};
+		B535DB592D5EBD3500705493 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B535DB5A2D5EBD3500705493 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B535DB632D5EBD3600705493 /* tassologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B535DB642D5EBD3600705493 /* tassologyTests.swift */,
+			);
+			path = tassologyTests;
+			sourceTree = "<group>";
+		};
+		B535DB6D2D5EBD3600705493 /* tassologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B535DB6E2D5EBD3600705493 /* tassologyUITests.swift */,
+				B535DB702D5EBD3600705493 /* tassologyUITestsLaunchTests.swift */,
+			);
+			path = tassologyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B535DB4F2D5EBD3300705493 /* tassology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535DB742D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassology" */;
+			buildPhases = (
+				B535DB4C2D5EBD3300705493 /* Sources */,
+				B535DB4D2D5EBD3300705493 /* Frameworks */,
+				B535DB4E2D5EBD3300705493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tassology;
+			productName = tassology;
+			productReference = B535DB502D5EBD3300705493 /* tassology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B535DB5F2D5EBD3600705493 /* tassologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535DB772D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassologyTests" */;
+			buildPhases = (
+				B535DB5C2D5EBD3600705493 /* Sources */,
+				B535DB5D2D5EBD3600705493 /* Frameworks */,
+				B535DB5E2D5EBD3600705493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535DB622D5EBD3600705493 /* PBXTargetDependency */,
+			);
+			name = tassologyTests;
+			productName = tassologyTests;
+			productReference = B535DB602D5EBD3600705493 /* tassologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B535DB692D5EBD3600705493 /* tassologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B535DB7A2D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassologyUITests" */;
+			buildPhases = (
+				B535DB662D5EBD3600705493 /* Sources */,
+				B535DB672D5EBD3600705493 /* Frameworks */,
+				B535DB682D5EBD3600705493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B535DB6C2D5EBD3600705493 /* PBXTargetDependency */,
+			);
+			name = tassologyUITests;
+			productName = tassologyUITests;
+			productReference = B535DB6A2D5EBD3600705493 /* tassologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B535DB482D5EBD3300705493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B535DB4F2D5EBD3300705493 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B535DB5F2D5EBD3600705493 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B535DB4F2D5EBD3300705493;
+					};
+					B535DB692D5EBD3600705493 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B535DB4F2D5EBD3300705493;
+					};
+				};
+			};
+			buildConfigurationList = B535DB4B2D5EBD3300705493 /* Build configuration list for PBXProject "tassology" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B535DB472D5EBD3300705493;
+			productRefGroup = B535DB512D5EBD3300705493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B535DB4F2D5EBD3300705493 /* tassology */,
+				B535DB5F2D5EBD3600705493 /* tassologyTests */,
+				B535DB692D5EBD3600705493 /* tassologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B535DB4E2D5EBD3300705493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535DB5B2D5EBD3500705493 /* Preview Assets.xcassets in Resources */,
+				B535DB582D5EBD3500705493 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB5E2D5EBD3600705493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB682D5EBD3600705493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B535DB4C2D5EBD3300705493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535DB562D5EBD3300705493 /* ContentView.swift in Sources */,
+				B535DB542D5EBD3300705493 /* tassologyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB5C2D5EBD3600705493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535DB652D5EBD3600705493 /* tassologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B535DB662D5EBD3600705493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B535DB712D5EBD3600705493 /* tassologyUITestsLaunchTests.swift in Sources */,
+				B535DB6F2D5EBD3600705493 /* tassologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B535DB622D5EBD3600705493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535DB4F2D5EBD3300705493 /* tassology */;
+			targetProxy = B535DB612D5EBD3600705493 /* PBXContainerItemProxy */;
+		};
+		B535DB6C2D5EBD3600705493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B535DB4F2D5EBD3300705493 /* tassology */;
+			targetProxy = B535DB6B2D5EBD3600705493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B535DB722D5EBD3600705493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B535DB732D5EBD3600705493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B535DB752D5EBD3600705493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tassology/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B535DB762D5EBD3600705493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tassology/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B535DB782D5EBD3600705493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tassology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tassology";
+			};
+			name = Debug;
+		};
+		B535DB792D5EBD3600705493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tassology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tassology";
+			};
+			name = Release;
+		};
+		B535DB7B2D5EBD3600705493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tassology;
+			};
+			name = Debug;
+		};
+		B535DB7C2D5EBD3600705493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ennui.tassologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tassology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B535DB4B2D5EBD3300705493 /* Build configuration list for PBXProject "tassology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535DB722D5EBD3600705493 /* Debug */,
+				B535DB732D5EBD3600705493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535DB742D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535DB752D5EBD3600705493 /* Debug */,
+				B535DB762D5EBD3600705493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535DB772D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535DB782D5EBD3600705493 /* Debug */,
+				B535DB792D5EBD3600705493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B535DB7A2D5EBD3600705493 /* Build configuration list for PBXNativeTarget "tassologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B535DB7B2D5EBD3600705493 /* Debug */,
+				B535DB7C2D5EBD3600705493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B535DB482D5EBD3300705493 /* Project object */;
+}
